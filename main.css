@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/HelveticaNeue-Medium.eot');
+    src: url('fonts/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-Medium.woff') format('woff'),
+        url('fonts/HelveticaNeue-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue light';
+    src: url('fonts/HelveticaNeue-Light.eot');
+    src: url('fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HelveticaNeue-Light.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-Light.woff') format('woff'),
+        url('fonts/HelveticaNeue-Light.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+  font-family: 'Helvetica Neue', serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  transform: scale(1, 1.2);
+  text-transform: uppercase;
+  line-height: 1.7rem;
+}
+
+body {
+  background-color: black;
+}
+
+.dline {
+  font-family: 'Helvetica Neue light', serif;
+  letter-spacing: 2.8rem;
+  font-size: 1.7rem;
+  padding-top: 10px;
+  margin-top: 0px;
+  border-top: solid 1px white;
+  width: 340px;
+  text-align: center;
+  align-self: center;
+}
+
+/*.accesscode {
+  text-decoration: underline;
+}*/
+
+em {
+  font-style: normal;
+  background-color: rgb(211, 31, 67);
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calibrage {
+  margin-bottom: 30px;
+}
