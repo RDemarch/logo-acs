@@ -42,8 +42,9 @@ body {
   font-family: 'Helvetica Neue light', serif;
   letter-spacing: 2.8rem;
   font-size: 1.7rem;
-  padding-top: 0.7rem;
-  margin-top: 0rem;
+  padding-top: 0.5rem;
+  margin-top: 0.31rem;
+  transform: scale(1, 1.5);
   border-top: solid 1px white;
   width: 21.5rem;
   text-align: center;
